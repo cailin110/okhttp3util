@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@color/bg_gray_white_color"
+    android:orientation="vertical" >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"  >
+        <FrameLayout
+            android:id="@+id/area_show_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/area_main_bottom"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_height="1dp"
+            android:elevation="0.5dp"
+            style="@style/divider_horizontal_style" />
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_btn1"
+                android:drawableTop="@drawable/btn_main_center_first_selector"
+                style="@style/main_tab_btn_style"
+                android:text="@string/main_bottom_title_1" />
+
+            <TextView
+                android:id="@+id/tv_btn2"
+                android:drawableTop="@drawable/btn_main_center_two_selector"
+                style="@style/main_tab_btn_style"
+                android:text="@string/main_bottom_title_2" />
+
+            <TextView
+                android:id="@+id/tv_btn3"
+                android:drawableTop="@drawable/btn_main_center_three_selector"
+                style="@style/main_tab_btn_style"
+                android:text="@string/main_bottom_title_3" />
+
+            <TextView
+                android:id="@+id/tv_btn4"
+                android:drawableTop="@drawable/btn_main_center_four_selector"
+                style="@style/main_tab_btn_style"
+                android:text="@string/main_bottom_title_4" />
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

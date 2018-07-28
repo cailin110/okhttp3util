@@ -1,0 +1,90 @@
+<com.zhishen.soft.happy.widget.InterceptLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray_white_color"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_common_height"
+        android:background="@color/bg_common_green_color">
+
+        <TextView
+            style="@style/head_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="收到的消息"
+            android:textColor="@color/white"></TextView>
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <FrameLayout
+            android:id="@+id/btn_tab_message_title_goutong"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_tab_message_title_goutong"
+                android:text="沟通"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/bg_common_black"
+                android:layout_height="wrap_content" />
+            <View
+                android:id="@+id/tv_tab_message_title_goutong_divider"
+                android:visibility="invisible"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:background="@color/bg_common_green_color"
+                />
+        </FrameLayout>
+
+        <View
+            style="@style/divider_vertical_style" />
+        <FrameLayout
+            android:id="@+id/btn_tab_message_title_hudong"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_tab_message_title_hudong"
+                android:text="互动"
+                android:layout_width="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="@color/bg_common_black"
+                android:layout_height="wrap_content" />
+            <View
+                android:id="@+id/tv_tab_message_title_hudong_divider"
+                android:layout_gravity="center_horizontal|bottom"
+                android:layout_width="50dp"
+                android:layout_height="1dp"
+                android:background="@color/bg_common_green_color"
+                />
+        </FrameLayout>
+    </LinearLayout>
+    <View
+        style="@style/divider_horizontal_style" />
+    <FrameLayout
+        android:id="@+id/area_tab_message_show"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+    </FrameLayout>
+
+
+</com.zhishen.soft.happy.widget.InterceptLinearLayout>

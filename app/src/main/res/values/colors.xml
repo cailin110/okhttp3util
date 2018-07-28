@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimary_show">#00ffffff</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="bg_common_green_color">#D94136</color>
+    <color name="ltgray">#FFCCCCCC</color>
+
+    <color name="tab_main_gray_divider">#CCCCCC</color>
+    <color name="divider_common">#c8c7cc</color>
+    <color name="tab_bg_btn">#e5e5e5</color>
+
+    <color name="color1">#ff0f9d58</color>
+    <color name="color2">#ffdb4437</color>
+    <color name="color3">#ff4285f4</color>
+    <color name="color4">#fff4b400</color>
+
+    <color name="avene_read">#f0826d</color>
+    <color name="avene_gray">#a0a8ad</color>
+    <color name="avene_gray_xiao">#6d757a</color>
+    <color name="sr_window_background">#FFFEFEFE</color>
+    <color name="view_focused">#11000000</color>
+    <color name="head_bg">#fcfcfc</color>
+    <color name="black">#000000</color>
+    <color name="tip_light">#9B9B9B</color>
+    <color name="white">#ffffff</color>
+    <color name="gray">#999999</color>
+    <color name="red">#FF0000</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent1">#11000000</color>
+    <color name="transparent3">#33000000</color>
+    <color name="transparent6">#66000000</color>
+    <color name="head_title">#474747</color>
+    <color name="head_background">#f7f7f7</color>
+    <color name="divider_color">#d4d4d4</color>
+    <color name="divider_color2">#bbbbbb</color>
+    <color name="gray_white_color">#eaeaea</color>
+    <color name="white_color">#ffffffff</color>
+    <color name="game_middle_layout_bg_color">#fff7f8fa</color>
+    <color name="game_middle_text_color">#ff666769</color>
+
+
+    <color name="blue_main">#1589d2</color>
+    <color name="blue_main_light">#85c3e8</color>
+    <color name="bg_white_main_divider">#b9c4e2</color>
+
+    <color name="main_head_title_default">#333333</color>
+    <color name="main_head_title_select">#666666</color>
+    <color name="tab_indecator">#a2dffe</color>
+
+    <color name="bg_white_main">#f8f8f8</color>
+    <color name="grid_bg">#FFFFFFFF</color>
+    <color name="grid_border">#FFC6C6C6</color>
+
+    <color name="bg_common_black">#3a3e40</color>
+    <color name="bg_et_black">#343438</color>
+    <color name="kpi_color_gray">#b3213654</color>
+    <color name="kpi_color_black">#213654</color>
+    <color name="kpi_color_red">#ff5c3c</color>
+    <color name="kpi_color_green">#3fc378</color>
+    <color name="kpi_color_black_light">#cc213654</color>
+    <color name="kpi_color_divider">#b5bcc6</color>
+    <color name="main_color_green_btn">#3ec478</color>
+    <color name="main_color_red_btn">#ff5c3c</color>
+    <color name="main_color_green">#3fc378</color>
+    <color name="main_color_red">#ff5c3c</color>
+    <color name="main_color_black">#cc213654</color>
+    <color name="main_color_black_gray">#99213654</color>
+    <color name="main_color_time_gray">#1Ab7c5da</color>
+
+    <!-- 白天模式颜色 -->
+    <color name="bg_white_default_day">@color/bg_white_main</color>
+
+    <!-- 夜间模式颜色  -->
+    <color name="bg_black_default_night">#666666</color>
+
+    <color name="light_gray">#d7d7d7</color>
+    <color name="divider_gray">#fff3efec</color>
+    <color name="bg_item_default">#e4e4e4</color>
+
+
+    <color name="edit_hint_color">#d4d4d4</color>
+    <color name="black_light">#3c3d41</color>
+
+    <color name="yellow">#f8801b</color>
+    <color name="yellow_bg">#f9c497</color>
+
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <color name="blue">#ff75a6ff</color>
+    <color name="translucence">#506050</color>
+    <color name="bg_gray">#e2e2e2</color>
+    <color name="green">#65e17b</color>
+
+    <color name="bg_common_red_color">#ff5252</color>
+    <color name="bg_common_red_press_color">#e2303c</color>
+    <color name="tag_list_item_unselect_color">#ff666666</color>
+    <color name="tag_list_item_select_color">#ffec6b51</color>
+    <color name="tab_color_default">#9B9B9B</color>
+    <color name="tab_color_select">@color/bg_common_red_color</color>
+    <color name="bg_gray_color">#ebe9e7</color>
+    <color name="bg_gray_white_color">#f2f2f2</color>
+    <color name="bg_white_item">#ffffff</color>
+    <color name="bg_white_item2">#fefefe</color>
+    <color name="dark_red_color">#ffc2185b</color>
+    <color name="gray_red_color">#faf4f1</color>
+    <color name="black_color">#ff000000</color>
+    <color name="index_head_black">#5B5B5B</color>
+    <color name="index_head_dian">#b7b7b7</color>
+    <color name="black_common_color">#5e5e5e</color>
+    <color name="black_light_color">#a4a4a4</color>
+    <color name="my_tab_gray">#9f9e9e</color>
+    <color name="my_tab_yellow">#f6de17</color>
+    <color name="black_head_my">#2f2e2e</color>
+
+    <color name="indicator_red_title_color">#e4464f</color>
+    <color name="indicator_default_title_color">@color/black_common_color</color>
+    <color name="login_black_color">#5c5c5c</color>
+    <color name="time_gray_color">#c5c5c4</color>
+    <color name="login_blue_color">#2387c1</color>
+    <color name="register_gray_color">#c2c2c2</color>
+    <color name="register_green_color">#2dcb9d</color>
+    <color name="register_blue_color">#2f8bc2</color>
+    <color name="systemmsg_black_color">#232323</color>
+    <color name="problem_black_color">#212121</color>
+    <color name="systemmsg_gray_color">#aaaaaa</color>
+    <color name="person_info_color">#3c3c3c</color>
+    <color name="product_info_color">#757575</color>
+    <color name="blue_info_color">#3e7ff8</color>
+    <color name="gray_info_color">#b2b2b2</color>
+    <color name="black_info_color">#373636</color>
+    <color name="navpage">#FFE1E8EB</color>
+
+    <color name="uvv_gray">#969696</color>
+    <color name="uvv_black">#ff000000</color>
+    <color name="uvv_light_gray">#ffF0F0F0</color>
+    <color name="uvv_titlebar_bg">#7f000000</color>
+
+
+    <color name="colorPrimaryLight">#cfd8dc</color>
+
+    <color name="gray_dark">#616161</color>
+    <color name="gray_light">#9e9e9e</color>
+    <color name="brown">#5d4037</color>
+
+    <color name="indicator_1">#55B3C2</color>
+    <color name="indicator_2">#64A4A4</color>
+    <color name="indicator_3">#66D7B9</color>
+    <color name="indicator_4">#FDBC7D</color>
+
+
+    <color name="indicator_dian_select_corners">#66bc9b65</color>
+    <color name="indicator_dian_select">#bc9b65</color>
+    <color name="indicator_dian_nor">#33bc9b65</color>
+
+
+    <color name="si_default_text_color">#FF0000</color>
+    <color name="si_default_text_color_selected">#FF00FF</color>
+    <color name="si_default_indicator_bg">#ee9999</color>
+
+
+    <color name="music_player_sb_bg">#FFFFE4D9</color>
+    <color name="music_player_sb_progress_color">#FFE64626</color>
+    <color name="music_player_sb_secondary_progress_color">#FFE87F6A</color>
+    <color name="music_player_user_name_color">#FF1A7BE8</color>
+
+    <color name="gplus_color_1">#3e802f</color>
+    <color name="gplus_color_2">#f4b400</color>
+    <color name="gplus_color_3">#427fed</color>
+    <color name="gplus_color_4">#b23424</color>
+
+    <integer-array name="gplus_colors">
+        <item>@color/gplus_color_1</item>
+        <item>@color/gplus_color_2</item>
+        <item>@color/gplus_color_3</item>
+        <item>@color/gplus_color_4</item>
+    </integer-array>
+
+
+    <color name="biz_audio_progress_bg">#00b2ff</color>
+    <color name="biz_audio_progress_first">#ffffff</color>
+    <color name="biz_audio_progress_second">#6b6666</color>
+
+    <color name="default_bg">#aa000000</color>
+    <color name="select_color">#00b2ff</color>
+    <color name="normal_color">#ffffffff</color>
+    <!--special color-->
+    <color name="black_a10_color">#1a000000</color>
+
+    <color name="logo_bottom_color">#66213654</color>
+    <color name="logo_line_color">#213654</color>
+    <color name="text_read">#ff5c3c</color>
+    <color name="text_gay">#212121</color>
+    <color name="bg_gay">#f5f5f5</color>
+    <color name="more_gay_bg">#D9c7c7c7</color>
+    <color name="gay_bg">#c8c7cc</color>
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay">#60000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_alertview_alert">#f8f8f8</color>
+    <color name="bgColor_alertview_alert_start">#f0f0f0</color>
+    <!--标题颜色-->
+    <color name="textColor_alert_title">#000000</color>
+    <color name="textColor_actionsheet_title">#8f8f8f</color>
+    <!--消息颜色-->
+    <color name="textColor_alert_msg">#000000</color>
+    <color name="textColor_actionsheet_msg">#8f8f8f</color>
+    <!--线条颜色-->
+    <color name="bgColor_divier">#d7d7db</color>
+    <!--取消按钮颜色-->
+    <color name="textColor_alert_button_cancel">#007aff</color>
+    <!--高亮按钮颜色-->
+    <color name="textColor_alert_button_destructive">#ff3b30</color>
+    <!--普通按钮文字颜色-->
+    <color name="textColor_alert_button_others">#007aff</color>
+    <!--点击颜色-->
+    <color name="bgColor_alert_button_press">#EAEAEA</color>
+    <!--actionsheet模式的取消按钮背景颜色-->
+    <color name="bgColor_actionsheet_cancel_nor">#ffffff</color>
+
+
+    <color name="timetimepicker_default_text_color">#999999</color>
+    <color name="timepicker_toolbar_bg">#e60012</color>
+    <color name="timepicker_dialog_bg">#80000000</color>
+    <color name="timepicker_line">#e8e8e8</color>
+
+
+    <color name="tab_kpi_line_other">#ecc744</color>
+    <color name="tab_kpi_line_my">#ff5c3c</color>
+    <color name="tab_kpi_line_avg">#62d4d2</color>
+    <color name="to_be_paid_color">#af56cc</color>
+    <color name="completed_color">#80213654</color>
+    <color name="campaign_line">#253656</color>
+
+    <!--覆盖颜色-->
+    <color name="bgColor_overlay_black">#95000000</color>
+    <!--窗口背景颜色-->
+    <color name="bgColor_svprogressdefaultview">@android:color/white</color>
+    <!--标题颜色-->
+    <color name="textColor_svprogresshuddefault_msg">#000000</color>
+    <color name="roundColor_svprogresshuddefault">#e5e5e5</color>
+    <color name="roundProgressColor_svprogresshuddefault">@android:color/black</color>
+    <color name="point_history_item_bg">#fafafa</color>
+    <color name="available_list_item_bg">#f2f2f2</color>
+
+
+    <color name="tab_bottom_menu_default">#b4b4b4</color>
+    <color name="tab_bottom_menu_select">#6d757a</color>
+    <color name="left_menu_black">#6d757a</color>
+    <color name="left_menu_red">#f58874</color>
+    <color name="dlg_title_head">#f6f6f6</color>
+    <color name="divider_show">#cdcdcd</color>
+    <color name="divider_show2">#cdcdcd</color>
+    <color name="divider_show3">#dcdcdc</color>
+    <color name="tv_tip_error_show">#f04040</color>
+    <color name="item_select_yes_color">#6d757a</color>
+    <color name="item_select_no_color">#b4b4b4</color>
+    <color name="dlg_input_select_yes">#f0826d</color>
+    <color name="dlg_input_select_no">#c8c8c8</color>
+    <color name="msg_item_bg_color">#33ffb0a1</color>
+
+    <color name="bg_item_color_default">#a6a6a6</color>
+    <color name="bg_divider_color_default">#dcdcdc</color>
+
+    <color name="tip_gray_show">#feefb8</color>
+
+
+    <color name="bg_common_black_color">#3d3d4b</color>
+    <color name="bg_common_green_tran3_color">#b7a9bb</color>
+    <color name="bg_common_green_press_color">#df91ef</color>
+    <color name="tab_first_item_show">#333333</color>
+    <color name="tab_first_item_gray">#808080</color>
+    <color name="bg_show_fen_run">#ff7346</color>
+    <color name="bg_show_yu_e">#ffbf1c</color>
+    <color name="bg_show_yu_e2">#ffba2f</color>
+
+    <color name="blue_color">#465c8d</color>
+
+    <color name="user_update_color1">#D4AC6D</color>
+    <color name="user_update_color2">#B2C9DA</color>
+    <color name="user_update_color3">#FFE159</color>
+    <color name="user_update_color4">#A1CB62</color>
+    <color name="user_update_color5">#B790CE</color>
+    <color name="user_update_color6">#FDB32B</color>
+
+    <color name="bg_common_white">#f4f4f4</color>
+    <color name="font_base">#333333</color>
+
+
+</resources>

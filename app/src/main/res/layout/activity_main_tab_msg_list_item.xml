@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:background="@color/bg_white_item"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/area_my_message_item"
+            android:background="@drawable/bg_common_selector"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/tv_my_message_title"
+                        android:text=""
+                        android:textSize="@dimen/h3"
+                        android:textColor="@color/bg_common_black"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"/>
+
+                <TextView
+                        android:id="@+id/tv_my_message_time"
+                        android:textColor="@color/systemmsg_gray_color"
+                        android:textSize="@dimen/h5"
+                        android:text="2015-08-25"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/tv_my_message_info"
+                    android:text=""
+                    android:textSize="@dimen/h3"
+                    android:textColor="@color/black_light_color"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/divider_horizontal_style" />
+
+</LinearLayout>

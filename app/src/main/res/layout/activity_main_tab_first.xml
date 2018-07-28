@@ -1,0 +1,181 @@
+<com.zhishen.soft.happy.widget.InterceptLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_gray_white_color"
+    android:orientation="vertical">
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_common_height"
+        android:background="@color/bg_common_green_color">
+
+        <TextView
+            style="@style/head_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="7dp"
+            android:text="发布全职"
+            android:textColor="@color/white"></TextView>
+
+        <TextView
+            android:id="@+id/btn_index_tab_sure"
+            style="@style/head_tv_style"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginRight="7dp"
+            android:text="确认发布"
+            android:textColor="@color/white"></TextView>
+
+    </FrameLayout>
+    <FrameLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textSize="18sp"
+            android:text="公司信息"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="12sp"
+            android:text="设置"
+            android:drawableRight="@drawable/ic_index_set_company"
+            android:layout_gravity="center_vertical|right"
+            android:gravity="center"
+            android:drawablePadding="8dp"
+            android:textColor="@color/tip_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </FrameLayout>
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="职位类别"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="请选择"
+                    android:drawableRight="@drawable/ic_common_arrow_right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="职位名称"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="请选择"
+                    android:drawableRight="@drawable/ic_common_arrow_right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="工作地点"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="具体的工作地址"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="工作性质"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="请选择"
+                    android:drawableRight="@drawable/ic_common_arrow_right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="薪资范围"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="请选择"
+                    android:drawableRight="@drawable/ic_common_arrow_right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="经验要求"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="请选择"
+                    android:drawableRight="@drawable/ic_common_arrow_right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="最低学历"
+                    style="@style/tv_index_item_left" />
+                <TextView
+                    android:text="请选择"
+                    android:drawableRight="@drawable/ic_common_arrow_right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="职位描述"
+                    style="@style/tv_index_item_left" />
+                <EditText
+                    android:hint="请填写"
+                    android:background="@null"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:gravity="right"
+                    style="@style/tv_index_item_right" />
+            </FrameLayout>
+
+            <View
+                style="@style/divider_horizontal_style" />
+            <FrameLayout
+                style="@style/tv_index_item_area" >
+
+                <TextView
+                    android:text="工作时间"
+                    style="@style/tv_index_item_left" />
+
+            </FrameLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</com.zhishen.soft.happy.widget.InterceptLinearLayout>

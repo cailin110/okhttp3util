@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1" >
+
+    <com.zhishen.soft.happy.widget.pulltorefresh.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/plv_common_pulltofresh"
+        style="@style/PullToRefreshCommon"
+        ptr:ptrAnimationStyle="flip"
+        ptr:ptrDrawable="@drawable/ic_pull_down"
+        ptr:ptrHeaderTextAppearance="@style/TextWidgetPullAction"
+        ptr:ptrMode="both"
+        ptr:ptrShowIndicator="false"
+        ptr:ptrSubHeaderTextAppearance="@style/TextWidgetPullAction" />
+
+</FrameLayout>
